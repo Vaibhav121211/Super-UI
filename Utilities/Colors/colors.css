@@ -1,0 +1,10 @@
+.color--slab{
+        border-radius: .5rem;
+        display: inline-flex;
+        padding: 1rem;
+        margin: 0 1rem;
+        border: 1px solid var(--quiz--secondaryColor);
+}
+.showcase h1{
+    margin: 1rem 0 ;
+}

@@ -1,0 +1,114 @@
+@import url('/stylesheets/reset.css');
+@import url('/stylesheets/color.css');
+@import url('/stylesheets/scrollbar.css');
+@import url('/Documentation/Code Snippets/code.css');
+
+
+
+/* Margin  */
+
+.m1{
+    margin: 1rem;
+}
+.m2{
+    margin: 2rem;
+}
+.m3{
+    margin: 3rem;
+}
+.m-t-2{
+    margin-top: 2rem;
+}
+/* Padding  */
+.p0{
+    padding: 0rem !important;
+}
+.p-0-5{
+    padding: .5rem;
+}
+.p1{
+    padding: 1rem;
+}
+.p2{
+    padding: 2rem;
+}
+
+/* Typo Graphy  */
+
+.light{
+    font-weight:300 ;
+}
+
+.regular{
+    font-weight:400 ;
+}
+
+
+.semibold{
+    font-weight: 600;
+}
+
+
+.bold{
+    font-weight: 700;
+}
+
+
+.black{
+    font-weight:900 ;
+}
+
+/* Sizes  */
+
+.txt--sm{
+    font-size: 1rem !important;
+
+}
+.txt--md{
+    font-size: 3rem !important;
+}
+.txt--lg{
+    font-size: 5rem !important;
+} 
+
+.txt--grey{
+    color: var(--grey);
+}
+.txt--center{
+    text-align: center;
+}
+
+/* Border Radius  */
+.br-0-5{
+    border-radius: .5rem;
+}
+
+/* Active Classes  */
+
+.nav--active{
+    font-weight: 1000;
+}
+
+.sidebar--active{
+    font-weight: 900;
+    color: blue;
+}
+
+/* hover effect  */
+
+.sidebar li:hover{
+        background-color: var(--hoverSidebar);
+        filter: blur(1px);
+       
+}
+.sidebar li:hover a{
+    color: var(--primary);
+}
+
+ .divider {
+    border-bottom: 3px solid var(--superUI-yellow-Color);
+    margin: 2rem 0;
+}
+.main--content p{
+    line-height: 3rem;
+}

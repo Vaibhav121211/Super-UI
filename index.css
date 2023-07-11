@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body {
+          box-sizing: border-box;
+  background-color: var(--superUI-background-Color);
+  font-family: 'Playfair Display', serif;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--superUI-blue-Color);
+  color: var(--superUI-yellow-Color);
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  height: 10vh;
+}
+
+.navigation .navigation__list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+}
+
+.navigation .navigation__list--item {
+  padding: 2rem;
+  text-align: center;
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: var(--superUI-yellow-Color);
+}
+
+.navigation h1 {
+  font-size: 3rem;
+  margin-left: 5rem;
+  letter-spacing: 4px;
+  display: grid;
+  place-items: center;
+}
+.imgAndPara{
+  display: grid;
+  place-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(60rem, 1fr));
+}
+
+.main--intro img {
+  height: auto;
+  width: 39rem;
+
+}
+
+.main--intro {
+  height: 80vh;
+  overflow: auto;
+}
+.btn-home {
+  bottom: 3rem;
+  right: 95rem;
+  padding: 1rem;
+  background-color: var(--superUI-yellow-Color);
+  font-size: 2rem;
+  border: 5px solid var(--superUI-blue-Color);
+  border-radius: 1rem;
+  letter-spacing: 4px;
+  cursor: pointer;
+  font-family: 'Playfair Display', serif;
+}
+
+.text-stroke {
+  color: var(--superUI-yellow-Color);
+  -webkit-text-stroke: 0.2px var(--dark);
+}
+.navigation h1 a{
+  text-decoration: none;
+    color: var(--superUI-yellow-Color);
+    font-weight: 700;
+}
+.para-hero {
+  font-size: 3rem;
+  height: 40rem;
+  width: 70rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-right: 4rem;
+  padding: 5rem;
+  flex-wrap: wrap;
+  letter-spacing: 4px;
+  line-height: 6rem;
+}
+.icons .fab{
+  font-size: 2rem;
+}
+.btn--container{
+  text-align: center;
+  margin-top: 2rem;
+}
+.btn-home:hover {
+  color: var(--white);
+  background-color: var(--superUI-blue-Color);
+}
+
+.btn-home:active {
+  color: var(--superUI-blue-Color);
+  background-color: var(--superUI-yellow-Color);
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+  width: 100vw;
+  padding: 3rem;
+  font-size: 3rem;
+  position: absolute;
+  bottom: 0;
+  gap: 2rem;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  background-color: var(--superUI-blue-Color);
+}
+
+footer a {
+  font-size: 1.5rem;
+  color: var(--superUI-yellow-Color);
+  padding: 0.5rem;
+}
+
+.footer__para {
+  letter-spacing: 4px;
+  font-size: 2rem;
+}
+
+.btn-home a{
+  text-decoration: none;
+  color: var(--black);
+}
+

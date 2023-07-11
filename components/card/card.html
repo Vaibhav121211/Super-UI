@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Documentation/documentation.css">
+    <link rel="stylesheet" href="/stylesheets/utility.css">
+    <link rel="stylesheet" href="/components/Button/button.css">
+    <link rel="stylesheet" href="/components/card/card.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <title>Card</title>
+</head>
+
+<body>
+    <nav class="navigation">
+        <h1>SUPER UI</h1>
+        <ul class="navigation__list">
+          <li><a class="navigation__list--item" href="/index.html">Home</a></li>
+          <li><a class="navigation__list--item nav--active" href="/Documentation/documentation.html">Docs</a></li>
+          <li><a class="navigation__list--item" href="#">Dark</a></li>
+        </ul>
+      </nav>
+      <div class="content">
+    
+        <div class="sidebar">
+    
+          <h3>Get Started</h3>
+          <div class="divider"></div>
+          <ul>
+            <li><a href="/Documentation/documentation.html">Introduction</a></li>
+            <li><a href="/Utilities/Colors/color.html">Colors</a></li>
+            <li><a href="/Utilities/Text Utility/textUtil.html">Text Utility </a></li>
+            <li><a href="/Utilities/Conclusion/conclusion.html">Conclusion</a></li>
+            
+          
+          
+        </ul>
+          <h3>Components</h3>
+          <div class="divider"></div>
+          <ul>
+            <li><a href="/components/Avatar/avatar.html">Avatar</a></li>
+            <li><a href="/components/Alert/badge/badge.html">Badge</a></li>
+            <li><a href="/components/Alert/alert.html">Alert</a></li>
+            <li><a href="/components/Button/button.html">Button</a></li>
+            <li><a class="sidebar--active" href="/components/card/card.html">Card </a></li>
+            <li><a href="/components/Images Component/images.html">Image</a></li>
+            <li><a href="/components/Input/input.html">Input</a></li>
+            <li><a href="/components/modals/modal.html">Modal</a></li>
+            <li><a href="/components/Navigation/navigation.html">Navigation</a></li>
+            <li><a href="/components/List/list.html">Lists</a></li>
+            <li><a href="/components/Ratings/rating.html">Rating</a></li>
+            <li><a href="/components/Snackbar/snackbar.html">Snackbar</a></li>
+            <li><a href="/components/Grids/grid.html">Grids</a></li>
+            <li><a href="/components/Slider/slider.html">Slider</a></li>
+            
+    
+          </ul>
+    
+    
+        </div>
+    
+        <div class="main--content">
+    <h1 class="heading">Card </h1>
+    <p>The card component can contain a variety of content, including a heading, image, content and a footer.
+        Each card should be the same height, and footers should stick to the bottom of the card. When added to a
+        collection of cards, the cards should line up in two dimensions. </p>
+<div class="divider"></div>
+<h2>Card with badges </h2>
+<p>You can make these types of cards , by using below code structure . And add class
+    <code>badge--left</code> and <code>badge--right</code> on where do you want badge . </p>
+
+<div class="showcase">
+    <div class="card--container">
+        <div class="card--image">
+            <div class="badge--left">New</div>
+            <img class="card--img" src="//unsplash.it/250/350">
+        </div>
+        <div class="card--text">
+            <div class="card--heading">Heading</div>
+            <div class="card--para">Sub-heading</div>
+            <div class="wishlist--heart"><i class="fas fa-heart"></i></div>
+
+            <div class="price">
+                <span class="price--actual"><i class="fas fa-rupee-sign"></i> 500</span>
+                <span class="price--reduced"><del><i class="fas fa-rupee-sign"></i> 7000</del></span>
+                <span class="price--discount">(55% OFF)</span>
+
+</div>
+        </div>
+    </div>
+    <div class="card--container">
+        <div class="card--image">
+            <div class="badge--right">Bestseller</div>
+            <img class="card--img" src="//unsplash.it/250/350">
+        </div>
+        <div class="card--text">
+            <div class="card--heading">Heading</div>
+            <div class="card--para">Sub-heading</div>
+            <div class="wishlist--heart"><i class="fas fa-heart"></i></div>
+            <div class="price">
+                <span class="price--actual"><i class="fas fa-rupee-sign"></i> 500</span>
+                <span class="price--reduced"><del><i class="fas fa-rupee-sign"></i> 7000</del></span>
+                <span class="price--discount">(55% OFF)</span>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="code-wrapper">
+        <pre>
+                    <div class="code"><code>
+                                    &lt;!-- Code for left side badge card component -->
+
+&lt;div class="card--container">
+    &lt;div class="card--image">
+        &lt;div class="badge--left">New&lt;/div>
+        &lt;img class="card--img" src="//unsplash.it/250/350" >
+            
+    &lt;/div>
+                            
+        &lt;div class="card--text">
+            &lt;div class="card--heading">Heading&lt;/div>
+            &lt;div class="card--para">Sub-heading&lt;/div>
+            &lt;div class="wishlist--heart">&lt;i class="fas fa-heart">&lt;/i>&lt;/div>
+                                
+            &lt;div class="price">
+                &lt;span class="price--actual">&lt;i class="fas fa-rupee-sign">&lt;/i>  500&lt;/span>
+                &lt;span class="price--reduced">&lt;del>&lt;i class="fas fa-rupee-sign">&lt;/i> 7000&lt;/del>&lt;/span>
+                &lt;span class="price--discount">(55% OFF)&lt;/span>
+            
+            &lt;/div>
+        &lt;/div>
+&lt;/div>
+            
+                                    &lt;!-- Code for right side badge card component -->
+
+&lt;div class="card--container">
+    &lt;div class="card--image">
+        &lt;div class="badge--right">Bestseller&lt;/div>
+        &lt;img class="card--img" src="//unsplash.it/250/350">
+    &lt;/div>
+                            
+        &lt;div class="card--text">
+            &lt;div class="card--heading">Heading&lt;/div>
+            &lt;div class="card--para">Sub-heading&lt;/div>
+            &lt;div class="wishlist--heart">&lt;i class="fas fa-heart">&lt;/i>&lt;/div>
+                                
+            &lt;div class="price">
+                &lt;span class="price--actual">&lt;i class="fas fa-rupee-sign">&lt;/i>  500&lt;/span>
+                &lt;span class="price--reduced">&lt;del>&lt;i class="fas fa-rupee-sign">&lt;/i> 7000&lt;/del>&lt;/span>
+                &lt;span class="price--discount">(55% OFF)&lt;/span>
+            
+            &lt;/div>
+        &lt;/div>
+    &lt;/div>
+</code>
+</pre>
+<button id="copy-btn">Copy</button>
+<div class="divider"></div>
+<h2>Card with dismiss </h2>
+<p>You can make these types of cards , by using below code structure . And add class
+    <code>card--dismiss</code> after the card--image . </p>
+<div class="showcase">
+
+    <div class="card--container">
+        <div class="card--image">
+            <div class="card--dismiss"><i class="fas fa-times-circle"></i></div>
+            <img class="card--img" src="//unsplash.it/250/350">
+
+        </div>
+
+        <div class="card--text">
+            <div class="card--heading">Heading</div>
+            <div class="card--para">Sub-heading</div>
+            <div class="wishlist--heart"><i class="fas fa-heart"></i></div>
+
+            <div class="price">
+                <span class="price--actual"><i class="fas fa-rupee-sign"></i> 500</span>
+                <span class="price--reduced"><del><i class="fas fa-rupee-sign"></i>
+                        7000</del></span>
+                <span class="price--discount">(55% OFF)</span>
+
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="code-wrapper">
+        <pre>
+<div class="code"><code>
+&lt;div class="card--container">
+    &lt;div class="card--image">
+        &lt;div class="card--dismiss">&lt;i class="fas fa-times-circle">&lt;/i>&lt;/div>
+        &lt;img class="card--img" src="//unsplash.it/250/350" >
+                
+    &lt;/div>
+                            
+        &lt;div class="card--text">
+            &lt;div class="card--heading">Heading&lt;/div>
+            &lt;div class="card--para">Sub-heading&lt;/div>
+            &lt;div class="wishlist--heart">&lt;i class="fas fa-heart">&lt;/i>&lt;/div>
+                                
+            &lt;div class="price">
+                &lt;span class="price--actual">&lt;i class="fas fa-rupee-sign">&lt;/i>  500&lt;/span>
+                &lt;span class="price--reduced">&lt;del>&lt;i class="fas fa-rupee-sign">&lt;/i> 7000&lt;/del>&lt;/span>
+                &lt;span class="price--discount">(55% OFF)&lt;/span>
+                
+            &lt;/div>
+        &lt;/div>
+&lt;/div>
+                    </code>
+                  </pre>
+<button id="copy-btn">Copy</button>
+<div class="divider"></div>
+<h2>Card with Text Overlay </h2>
+<p>You can make these types of cards , by using below code structure </p>
+<div class="showcase">
+    <div class="card--overlay">
+        <img class=" img--overlay  " src="//unsplash.it/400/200">
+        <div class="card--overlay__heading">Heading</div>
+        <div class="card--overlay__subheading">Sub-heading</div>
+    </div>
+</div>
+<div class="container">
+    <div class="code-wrapper">
+        <pre>
+            <div class="code"><code>
+&lt;div class="card--overlay">
+
+    &lt;img class=" img--overlay  " src="//unsplash.it/400/200" >
+                    
+    &lt;div class="card--overlay__heading">Heading&lt;/div>
+    &lt;div class="card--overlay__subheading">Sub-heading&lt;/div>
+&lt;/div>
+&lt;/div>  </code>
+          </pre>
+
+<button id="copy-btn">Copy</button>
+
+
+<div class="divider"></div>
+
+
+<h2>Text only Card </h2>
+<p>You can make these types of cards , by using below code structure </p>
+
+
+<div class="showcase">
+
+    <div class="card--textOnly">
+        <i class="fab fa-cc-visa"></i>
+
+        <div class="card--textOnly__heading">Current Balance</div>
+        <p class="textOnly--para"><i class="fas fa-rupee-sign"></i>5000</p>
+        <div class="card--textOnly__subheading">Suyash (878 8787 878)</div>
+    </div>
+</div>
+<div class="container">
+    <div class="code-wrapper">
+    <pre>
+
+            <div class="code"><code>
+&lt;div class="card--textOnly">
+    &lt;i class="fab fa-cc-visa">&lt;/i>
+                    
+    &lt;div class="card--textOnly__heading">Current Balance&lt;/div>
+    &lt;p class="textOnly--para">&lt;i class="fas fa-rupee-sign">&lt;/i>5000&lt;/p>
+    &lt;div class="card--textOnly__subheading">Suyash (878 8787 878)&lt;/div>
+&lt;/div>
+&lt;/div></code>
+          </pre>
+
+
+<button id="copy-btn">Copy</button>
+<div class="divider"></div>
+<h2>Cards with Shadow. </h2>
+<p>You can make these types of cards , by using below code structure </p>
+<div class="showcase ">
+
+    <div class="card--textOnly card--shadow">
+        <i class="fab fa-cc-visa"></i>
+
+        <div class="card--textOnly__heading">Current Balance</div>
+        <p class="textOnly--para"><i class="fas fa-rupee-sign"></i>5000</p>
+        <div class="card--textOnly__subheading">Suyash (878 8787 878)</div>
+    </div>
+</div>
+<div class="container">
+    <div class="code-wrapper">
+    <pre>
+
+            <div class="code"><code>
+&lt;div class="card--textOnly card--shadow">
+    &lt;i class="fab fa-cc-visa">&lt;/i>
+                    
+    &lt;div class="card--textOnly__heading">Current Balance&lt;/div>
+    &lt;p class="textOnly--para">&lt;i class="fas fa-rupee-sign">&lt;/i>5000&lt;/p>
+    &lt;div class="card--textOnly__subheading">Suyash (878 8787 878)&lt;/div>
+&lt;/div>
+&lt;/div></code>
+          </pre>
+
+<button id="copy-btn">Copy</button>
+
+</div></div></div></div></div></div></div></div></div></div>
+<div class="nav--dueTo--mediaquery">
+    <div class="divider--down">***********************</div>
+    <div class="navigation--down">
+      <a href="/components/Button/button.html"><button class="btn--down">Button</button></a>
+      <a href="/components/Images Component/images.html"><button class="btn--down">Image</button></a>
+    </div>
+  </div>
+</div>
+
+</body>
+
+</html>

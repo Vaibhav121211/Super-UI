@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Documentation/documentation.css">
+    <link rel="stylesheet" href="/stylesheets/utility.css">
+    <link rel="stylesheet" href="/components/Snackbar/snackbar.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <title>Snackbar </title>
+</head>
+
+<body>
+
+    <nav class="navigation">
+        <h1>SUPER UI</h1>
+        <ul class="navigation__list">
+          <li><a class="navigation__list--item" href="/index.html">Home</a></li>
+          <li><a class="navigation__list--item nav--active" href="/Documentation/documentation.html">Docs</a></li>
+          <li><a class="navigation__list--item" href="#">Dark</a></li>
+        </ul>
+      </nav>
+      <div class="content">
+    
+        <div class="sidebar">
+    
+          <h3>Get Started</h3>
+          <div class="divider"></div>
+          <ul>
+            <li><a href="/Documentation/documentation.html">Introduction</a></li>
+            <li><a href="/Utilities/Colors/color.html">Colors</a></li>
+            <li><a href="/Utilities/Text Utility/textUtil.html">Text Utility </a></li>
+            <li><a href="/Utilities/Conclusion/conclusion.html">Conclusion</a></li>
+            
+          
+          
+        </ul>
+          <h3>Components</h3>
+          <div class="divider"></div>
+          <ul>
+            <li><a href="/components/Avatar/avatar.html">Avatar</a></li>
+            <li><a href="/components/Alert/badge/badge.html">Badge</a></li>
+            <li><a href="/components/Alert/alert.html">Alert</a></li>
+            <li><a href="/components/Button/button.html">Button</a></li>
+            <li><a href="/components/card/card.html">Card </a></li>
+            <li><a href="/components/Images Component/images.html">Image</a></li>
+            <li><a href="/components/Input/input.html">Input</a></li>
+            <li><a href="/components/modals/modal.html">Modal</a></li>
+            <li><a href="/components/Navigation/navigation.html">Navigation</a></li>
+            <li><a href="/components/List/list.html">Lists</a></li>
+            <li><a href="/components/Ratings/rating.html">Rating</a></li>
+            <li><a class="sidebar--active" href="/components/Snackbar/snackbar.html">Snackbar</a></li>
+            <li><a href="/components/Grids/grid.html">Grids</a></li>
+            <li><a href="/components/Slider/slider.html">Slider</a></li>
+            
+    
+          </ul>
+    
+    
+        </div>
+    
+        <div class="main--content">
+            <h1 class="heading">Snackbar </h1>
+            <p>Snackbars inform users of a process that an app has performed or will perform. They appear temporarily,
+                towards the bottom of the screen. They shouldn’t interrupt the user experience, and they don’t require
+               user input to disappear.</p>
+            <div class="divider"></div>
+            <h2>Simple Snackbar</h2>
+            <p>This can be used by using class <code>snackBar</code> , for text use class <code>snackbar--text</code>
+                , for message give class <code>exit</code> .</p>
+
+            <div class="showcase--middle">
+                <div class="snackBar br-0-5">
+                    <p class="snackbar--text p0">Can't take photo . Retry in 5 seconds</p>
+                    <div class="exit"><span class=" bold ">RETRY</span>
+                        <i class="fas fa-times text_white"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="code-wrapper">
+                    <pre>
+        <code class="code">
+&lt;div class="snackBar">
+    &lt;p class="snackbar--text p0">Can't take photo . Retry in 5 seconds&lt;/p>
+    &lt;div class="exit">&lt;span class=" bold ">RETRY&lt;/span> 
+        &lt;i class="fas fa-times text_white">&lt;/i>
+    &lt;/div>
+        </code>
+    </pre>
+        <button id="copy-btn">Copy</button>
+    </div>
+    <div class="divider"></div>
+    <h2>Stacked Snackbar</h2>
+    <p>This can be used by using class <code>snackBar--stacked</code> , for text use class
+        <code>snackbar--text</code>
+        , for message give class <code>exit--stacked</code> .
+    </p>
+
+    <div class="showcase--middle">
+        <div class="snackBar--stacked br-0-5">
+
+            <p class="snackbar--text p0">Can't take photo . Retry in 5 seconds</p>
+            <div class="exit--stacked"><span class=" bold ">RETRY</span>
+                <i class="fas fa-times text_white"></i>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="code-wrapper">
+            <pre>
+<code class="code">
+&lt;div class="snackBar--stacked br-0-5">
+    &lt;p class="snackbar--text p0">Can't take photo . Retry in 5 seconds&lt;/p>
+    &lt;div class="exit--stacked">&lt;span class=" bold ">RETRY&lt;/span>
+        &lt;i class="fas fa-times text_white">&lt;/i>&lt;/div>
+&lt;/div>
+</code>
+</pre>
+<button id="copy-btn">Copy</button>
+</div> </div></div>  <div class="nav--dueTo--mediaquery">
+    <div class="divider--down">***********************</div>
+    <div class="navigation--down">
+      <a href="/components/Ratings/rating.html"><button class="btn--down">Ratings</button></a>
+      <a href="/components/Grids/grid.html"><button class="btn--down">Grids</button></a>
+    </div>
+  </div>
+</div>
+</body>
+</html>

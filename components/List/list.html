@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Documentation/documentation.css">
+    <link rel="stylesheet" href="/stylesheets/utility.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+        <link rel="stylesheet" href="/components/List/list.css">
+    <title>List</title>
+</head>
+<body>
+    <nav class="navigation">
+        <h1>SUPER UI</h1>
+        <ul class="navigation__list">
+          <li><a class="navigation__list--item" href="/index.html">Home</a></li>
+          <li><a class="navigation__list--item nav--active" href="/Documentation/documentation.html">Docs</a></li>
+          <li><a class="navigation__list--item" href="#">Dark</a></li>
+        </ul>
+      </nav>
+      <div class="content">
+    
+        <div class="sidebar">
+    
+          <h3>Get Started</h3>
+          <div class="divider"></div>
+          <ul>
+            <li><a href="/Documentation/documentation.html">Introduction</a></li>
+            <li><a href="/Utilities/Colors/color.html">Colors</a></li>
+            <li><a href="/Utilities/Text Utility/textUtil.html">Text Utility </a></li>
+            <li><a href="/Utilities/Conclusion/conclusion.html">Conclusion</a></li>
+            
+          
+          
+        </ul>
+          <h3>Components</h3>
+          <div class="divider"></div>
+          <ul>
+            <li><a href="/components/Avatar/avatar.html">Avatar</a></li>
+            <li><a href="/components/Alert/badge/badge.html">Badge</a></li>
+            <li><a href="/components/Alert/alert.html">Alert</a></li>
+            <li><a href="/components/Button/button.html">Button</a></li>
+            <li><a href="/components/card/card.html">Card </a></li>
+            <li><a href="/components/Images Component/images.html">Image</a></li>
+            <li><a href="/components/Input/input.html">Input</a></li>
+            <li><a href="/components/modals/modal.html">Modal</a></li>
+            <li><a href="/components/Navigation/navigation.html">Navigation</a></li>
+            <li><a class="sidebar--active" href="/components/List/list.html">Lists</a></li>
+            <li><a href="/components/Ratings/rating.html">Rating</a></li>
+            <li><a href="/components/Snackbar/snackbar.html">Snackbar</a></li>
+            <li><a href="/components/Grids/grid.html">Grids</a></li>
+            <li><a href="/components/Slider/slider.html">Slider</a></li>
+            
+    
+          </ul>
+    
+    
+        </div>
+    
+        <div class="main--content">
+    <h1 class="heading">List </h1>
+    <p>List are very Useful if you want to give some information about your services , or if u want some categories inside your websites . </p>
+<div class="divider"></div>
+
+<h2>Spaced (Normal List) </h2>
+<p>This can be used by makind a div having class <code>list--container</code> and then you have to use class <code>list--heading</code> then type your list items and super ui will do everything for You .</p>
+
+    <div class="showcase--middle">
+        <div class="list--container">
+            <p class="list--heading">Brands</p>
+            <ul>
+                <li>Rolex</li>
+                <li>Hublot</li>
+                <li>Montblanc</li>
+                <li>Omega</li>
+            </ul>
+        </div>
+    </div>
+    <div class="container">
+        <div class="code-wrapper">
+            <pre>
+<code class="code">
+&lt;div class="list--container">
+&lt;p class="list--heading">Brands&lt;/p>
+&lt;ul>
+    &lt;li>Rolex&lt;/li>
+    &lt;li>Hublot&lt;/li>
+    &lt;li>Montblanc&lt;/li>
+    &lt;li>Omega&lt;/li>
+&lt;/ul>
+&lt;/div>
+</code>
+</pre>
+<button id="copy-btn">Copy</button>
+</div>
+</div>
+<div class="divider"></div>
+
+<h2>Stacked (Notification List) </h2>
+<p>This can be used by adding class <code>stacked--list--container</code>  inside the container div , If you want to add avatar image you can add then , for list heading add class <code>list--stacked--heading</code> and for sub heading use class <code>list--stacked--subheading</code> .</p>
+
+
+<div class="showcase--middle">
+    <div class="stacked--list--container">
+
+        <img src="https://picsum.photos/45/45" alt="avatar">
+        <div class="list--stacked--text">
+        <p class="list--stacked--heading">You have 2 new Messages . </p>
+        <p class="list--stacked--subheading">Test Notification</p>
+        </div><small>11:40 AM</small>
+    </div>
+
+    <div class="stacked--list--container">
+
+        <img src="https://picsum.photos/45/45" alt="avatar">
+        <div class="list--stacked--text">
+        <p class="list--stacked--heading">Connected as a media device .  </p>
+        <p class="list--stacked--subheading">Use this as primary device. </p>
+        </div><small>09:14 AM</small>
+    </div> <div class="stacked--list--container">
+
+        <img src="https://picsum.photos/45/45" alt="avatar">
+        <div class="list--stacked--text">
+        <p class="list--stacked--heading">Your Order has been shipped . </p>
+        <p class="list--stacked--subheading">Front Fist Shipping</p>
+        </div><small>10:16 PM</small>
+    </div>
+</div>
+
+<div class="container">
+    <div class="code-wrapper">
+        <pre>
+<code class="code">
+&lt;div class="stacked--list--container">
+
+&lt;img src="https://picsum.photos/45/45" alt="">
+&lt;div class="list--stacked--text">
+&lt;p class="list--stacked--heading">You have 2 new Messages . &lt;/p>
+&lt;p class="list--stacked--subheading">Test Notification&lt;/p>
+&lt;/div>&lt;small>11:40 AM&lt;/small>
+&lt;/div>
+
+&lt;div class="stacked--list--container">
+
+&lt;img src="https://picsum.photos/45/45" alt="">
+&lt;div class="list--stacked--text">
+&lt;p class="list--stacked--heading">Connected as a media device .  &lt;/p>
+&lt;p class="list--stacked--subheading">Use this as primary device. &lt;/p>
+&lt;/div>&lt;small>09:14 AM&lt;/small>
+
+&lt;/div> &lt;div class="stacked--list--container">
+
+&lt;img src="https://picsum.photos/45/45" alt="">
+&lt;div class="list--stacked--text">
+&lt;p class="list--stacked--heading">Your Order has been shipped . &lt;/p>
+&lt;p class="list--stacked--subheading">Front Fist Shipping&lt;/p>
+&lt;/div>&lt;small>10:16 PM&lt;/small>
+&lt;/div>
+</code>
+</pre>
+<button id="copy-btn">Copy</button>
+</div></div>
+<div class="nav--dueTo--mediaquery">
+    <div class="divider--down">***********************</div>
+    <div class="navigation--down">
+      <a href="/components/Navigation/navigation.html"><button class="btn--down">Navigation</button></a>
+      <a href="/components/Ratings/rating.html"><button class="btn--down">Rating</button></a>
+    </div>
+  </div>
+</div>
+        </div>
+</body>
+</html>

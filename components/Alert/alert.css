@@ -1,0 +1,105 @@
+
+  .alert {
+    height: 6rem;
+    padding: 2rem;
+    margin: 1rem;
+    border-radius: .5rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-size: 1.5rem;
+  }
+
+
+
+  .alert--primary {
+    background-color: var(--primary--bg);
+    color: var(--primary--text);
+  }
+  
+  .alert--secondary {
+    background-color: var(--secondary--bg);
+    color: var(--secondary--text);
+  }
+  
+  .alert--success {
+    background-color: var(--success--bg);
+    color: var(--success--text);
+  }
+  
+  .alert--danger {
+    background-color: var(--danger--bg);
+    color: var(--warning--text);
+  }
+  
+  .alert--warning {
+    background-color: var(--warning--bg);
+    color: var(--warning--text);
+  }
+  
+  .alert--info {
+    background-color: var(--info--bg);
+    color: var(--info--text);
+  }
+  
+  .alert--light {
+    background-color: var(--light--bg);
+    color: var(--light--text);
+  }
+  
+  .alert--dark {
+    background-color: var(--dark--bg);
+    color: var(--dark--text);
+  }
+  
+  .outline--primary {
+    background-color: var( --white);
+    border: 1px solid var(--primary--text);
+    color: var(--primary--text);
+  }
+  
+  .outline--secondary {
+    background-color: var( --white);
+    border: 1px solid var(--secondary--text);
+    color: var(--secondary--text);
+  }
+  
+  .outline--success {
+    background-color: var( --white);
+    border: 1px solid var( --success);
+    color: var( --success);
+  }
+  
+  .outline--danger {
+    background-color: var( --white);
+    border: 1px solid var( --danger);
+    color: var( --danger);
+  }
+  
+  .outline--warning {
+    background-color: var( --white);
+    border: 1px solid var( --warning);
+    color: var( --warning);
+  }
+  
+  .outline--info {
+    background-color: var( --white);
+    border: 1px solid var( --info);
+    color: var( --info);
+  }
+  
+  .outline--light {
+    background-color: var( --white);
+    border: 1px solid var(--light--text);
+    color: var(--light--text);
+  }
+  
+  .outline--dark {
+    background-color: var( --white);
+    border: 1px solid var( --dark);
+    color: var( --dark);
+  }
+  /*# sourceMappingURL=alert.css.map */

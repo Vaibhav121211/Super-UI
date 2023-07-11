@@ -1,0 +1,65 @@
+/* Scrollbar for main content  */
+
+.main--content::-webkit-scrollbar {
+    width: auto;
+  }
+  
+  .main--content::-webkit-scrollbar-track {
+    background-color: #c0fdff;
+  }
+  
+  .main--content:hover::-webkit-scrollbar {
+    width: 2rem;
+  }
+  
+  .main--content:hover::-webkit-scrollbar-track {
+    background-color: #c0fdff;
+  }
+  
+  .main--content:hover::-webkit-scrollbar-thumb {
+    background-color: #247ba0;
+  }
+  
+/* Scrollbar for body  */
+
+  body::-webkit-scrollbar {
+    width: auto;
+  }
+  
+  body::-webkit-scrollbar-track {
+    background-color: var(--superUI-background-Color);
+  }
+  
+  body:hover::-webkit-scrollbar {
+    width: 2rem;
+  }
+  
+  body:hover::-webkit-scrollbar-track {
+    background-color: var(--superUI-background-Color);
+  }
+  
+  body:hover::-webkit-scrollbar-thumb {
+    background-color: var(--superUI-blue-Color);
+  }
+
+/* Scrollbar for sidebar  */
+  
+.sidebar::-webkit-scrollbar {
+  width: auto;
+}
+
+.sidebar::-webkit-scrollbar-track {
+  background-color: var(--superUI-background-Color);
+}
+
+.sidebar:hover::-webkit-scrollbar {
+  width: 2rem;
+}
+
+.sidebar:hover::-webkit-scrollbar-track {
+  background-color: var(--superUI-background-Color);
+}
+
+.sidebar:hover::-webkit-scrollbar-thumb {
+  background-color: var(--superUI-blue-Color);
+}

@@ -1,0 +1,66 @@
+
+  .icons {
+    height: 5rem;
+  }
+  
+  .number {
+    position: absolute;
+    background-color: var(--primary);
+    color: var(--white);
+    padding: .5rem;
+    border-radius: 50%;
+    top: 0;
+    right: 2rem;
+  }
+  
+  .badge {
+    display: inline-block;
+    position: relative;
+    padding: 0 3rem;
+  }
+  
+  .showcase {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  
+  .avatar {
+    height: 5rem;
+  }
+  
+  .online {
+    position: absolute;
+    background-color: var(--success);
+    border-radius: 50%;
+    padding: 6px;
+    bottom: 1rem;
+    right: 2.5rem;
+    border: 2px solid var(--white);
+  }
+  
+  .offline {
+    position: absolute;
+    background-color: var(--grey);
+    border-radius: 50%;
+    padding: 6px;
+    bottom: 1rem;
+    right: 2.5rem;
+    border: 2px solid var(--white);
+  }
+  
+  .dnd {
+    position: absolute;
+    background-color: var(--danger);
+    border-radius: 50%;
+    padding: 6px;
+    bottom: 1rem;
+    right: 2.5rem;
+    border: 2px solid var(--white);
+  }

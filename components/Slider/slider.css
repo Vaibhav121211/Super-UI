@@ -1,0 +1,13 @@
+.slider{
+    width: 40rem;
+    font-size: 2rem;
+   
+}
+.slider--breakpoints{
+    font-size: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+input{
+    width: 40rem;
+}

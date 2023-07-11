@@ -1,0 +1,16 @@
+.fa-star{
+    color: var(--success);
+}
+.fa-star:hover{
+    color: var(--danger);
+    cursor: pointer;
+}
+.rating--badge{
+    display: flex;
+}
+
+.badge--container{
+    background-color: var(--white);
+    padding: 1rem !important;
+    width: fit-content;
+}

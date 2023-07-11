@@ -1,0 +1,60 @@
+
+.image--component {
+    height: 40rem;
+    width: 25rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -o-object-fit: cover;
+       object-fit: cover;
+    background-color: var(--white);
+    border: 2px solid var(--teal);
+    border-radius: .5rem;
+  }
+  
+  .image--responsive {
+    height: inherit;
+    border-radius: 5px;
+  }
+  
+  /* Extra small devices (phones, 600px and down) */
+  @media only screen and (max-width: 600px) {
+    .image--component {
+      width: 70%;
+    }
+  }
+  
+  .image--component__round {
+    height: 30rem;
+    width: 25rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -o-object-fit: cover;
+       object-fit: cover;
+    background-color: var(--white);
+    border: 2px solid var(--teal);
+    border-radius: 50%;
+    overflow: hidden;
+  }
+
+  .showcase {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  

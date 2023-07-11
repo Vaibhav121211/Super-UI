@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Documentation/documentation.css">
+    <link rel="stylesheet" href="/stylesheets/utility.css">
+    <link rel="stylesheet" href="/components/Button/button.css">
+    
+    <title>Button</title>
+</head>
+<body>
+  <nav class="navigation">
+    <h1>SUPER UI</h1>
+    <ul class="navigation__list">
+      <li><a class="navigation__list--item" href="/index.html">Home</a></li>
+      <li><a class="navigation__list--item nav--active" href="/Documentation/documentation.html">Docs</a></li>
+      <li><a class="navigation__list--item" href="#">Dark</a></li>
+    </ul>
+  </nav>
+  <div class="content">
+
+    <div class="sidebar">
+
+      <h3>Get Started</h3>
+      <div class="divider"></div>
+      <ul>
+        <li><a href="/Documentation/documentation.html">Introduction</a></li>
+        <li><a href="/Utilities/Colors/color.html">Colors</a></li>
+        <li><a href="/Utilities/Text Utility/textUtil.html">Text Utility </a></li>
+        <li><a href="/Utilities/Conclusion/conclusion.html">Conclusion</a></li>
+        
+      
+      
+    </ul>
+      <h3>Components</h3>
+      <div class="divider"></div>
+      <ul>
+        <li><a href="/components/Avatar/avatar.html">Avatar</a></li>
+        <li><a href="/components/Alert/badge/badge.html">Badge</a></li>
+        <li><a href="/components/Alert/alert.html">Alert</a></li>
+        <li><a class="sidebar--active" href="/components/Button/button.html">Button</a></li>
+        <li><a href="/components/card/card.html">Card </a></li>
+        <li><a href="/components/Images Component/images.html">Image</a></li>
+        <li><a href="/components/Input/input.html">Input</a></li>
+        <li><a href="/components/modals/modal.html">Modal</a></li>
+        <li><a href="/components/Navigation/navigation.html">Navigation</a></li>
+        <li><a href="/components/List/list.html">Lists</a></li>
+        <li><a href="/components/Ratings/rating.html">Rating</a></li>
+        <li><a href="/components/Snackbar/snackbar.html">Snackbar</a></li>
+        <li><a href="/components/Grids/grid.html">Grids</a></li>
+        <li><a href="/components/Slider/slider.html">Slider</a></li>
+        
+
+      </ul>
+
+
+    </div>
+
+    <div class="main--content">
+
+            
+        <h1 class="heading">Button</h1>
+  
+        <p>Use SuperUI’s custom button styles for actions in forms, dialogs, and more with support for multiple sizes, states, and more.</p>
+
+        <div class="divider"></div>
+
+        <h2>Primary Buttons</h2>
+        <p>This tells about the notifications from top . We can use it by using class <code>badge</code> on parent <code>div</code>
+        and class <code>icons</code> on image . For Number add class <code>number</code> on span .  </p>
+
+        <div class="showcase">
+
+          <button class="btn btn--primary">Primary  </button>
+          <button class="btn btn--secondary">Secondary</button>
+          <button class="btn btn--success">Success</button>
+          <button class="btn btn--danger">Danger </button>
+          <button class="btn btn--warning">Warning </button>
+          <button class="btn btn--info">Info</button>
+          <button class="btn btn--light">Light </button>
+          <button class="btn btn--dark">Dark </button>
+        </div>
+
+        <div class="container">
+        
+
+          <div class="code-wrapper">
+
+            <pre>
+
+              <code class="code">
+
+&lt;button class="btn btn--primary">Primary&lt;/button>
+
+&lt;button class="btn btn--secondary">Secondary&lt;/button>
+
+&lt;button class="btn btn--success">Success&lt;/button>
+
+&lt;button class="btn btn--danger">Danger &lt;/button>
+
+&lt;button class="btn btn--warning">Warning &lt;/button>
+
+&lt;button class="btn btn--info">Info&lt;/button>
+
+&lt;button class="btn btn--light">Light &lt;/button>
+
+&lt;button class="btn btn--dark">Dark &lt;/button>
+              </code>
+            </pre>
+
+
+<button id="copy-btn">Copy</button>
+
+          </div>
+
+
+<div class="divider"></div>
+
+<h2>Link Buttons</h2>
+<p>This tells about the notifications from top . We can use it by using class <code>badge</code> on parent <code>div</code>
+and class <code>icons</code> on image . For Number add class <code>number</code> on span .  </p>
+
+<div class="showcase">
+  <button class="btn btn--link"><a class="link" href="/">Click Me</a></button>
+</div>
+
+<div class="container">
+  <!-- <p class="language">javascript</p> -->
+
+  <div class="code-wrapper">
+
+    <pre>
+
+      <code class="code">
+
+&lt;button class="btn btn--link">&lt;a class="link" href="/">Click Me&lt;/a></button>
+      </code>
+    </pre>
+
+
+<button id="copy-btn">Copy</button>
+
+  </div>
+<div class="divider"></div>
+
+<h2>Icons Buttons</h2>
+<p>This tells about the notifications from top . We can use it by using class <code>badge</code> on parent <code>div</code>
+and class <code>icons</code> on image . For Number add class <code>number</code> on span .  </p>
+
+<div class="showcase">
+
+
+  <button class="btn btn--icon btn--primary"> <i class="fas fa-print"></i>Print</button>
+  <button class="btn btn--icon btn--warning"><i class="fas fa-radiation-alt"></i>Alert!!</button>
+</div>
+
+
+
+<div class="container">
+  <!-- <p class="language">javascript</p> -->
+
+  <div class="code-wrapper">
+
+    <pre>
+
+      <code class="code">
+
+&lt;button class="btn btn--icon btn--primary"> &lt;i class="fas fa-print">&lt;/i>Print&lt;/button>
+
+&lt;button class="btn btn--icon btn--warning">&lt;i class="fas fa-radiation-alt">&lt;/i>Alert!!&lt;/button>
+      </code>
+    </pre>
+
+
+<button id="copy-btn">Copy</button>
+
+  </div>
+
+<div class="divider"></div>
+
+
+<h2>Floating Action Buttons</h2>
+<p>This tells about the notifications from top . We can use it by using class <code>badge</code> on parent <code>div</code>
+and class <code>icons</code> on image . For Number add class <code>number</code> on span .  </p>
+
+<div class="showcase">
+
+<button class="btn btn--floating btn--dark"><i class="fas fa-plus"></i></button>
+<button class="btn btn--floating btn--dark"><i class="fas fa-comments"></i></button>
+<button class="btn btn--floating btn--dark"><i class="fas fa-camera"></i></button>
+
+
+</div>
+
+<div class="container">
+  <!-- <p class="language">javascript</p> -->
+
+  <div class="code-wrapper">
+
+    <pre>
+
+      <code class="code">
+
+&lt;button class="btn btn--floating btn--dark">&lt;i class="fas fa-plus">&lt;/i>&lt;/button>
+
+&lt;button class="btn btn--floating btn--dark">&lt;i class="fas fa-comments">&lt;/i>&lt;/button>
+
+&lt;button class="btn btn--floating btn--dark">&lt;i class="fas fa-camera">&lt;/i>&lt;/button>
+      </code>
+    </pre>
+
+
+<button id="copy-btn">Copy</button>
+
+  </div></div></div></div></div>
+
+  <div class="nav--dueTo--mediaquery">
+    <div class="divider--down">***********************</div>
+    <div class="navigation--down">
+      <a href="/components/Alert/alert.html"><button class="btn--down">Alert</button></a>
+      <a href="/components/card/card.html"><button class="btn--down">Card</button></a>
+    </div>
+  </div>
+
+
+
+<script
+src="https://kit.fontawesome.com/0dbbe70cac.js"
+crossorigin="anonymous"
+></script>
+
+    </div>
+        </div>
+</body>
+</html>

@@ -1,0 +1,41 @@
+.snackBar{
+    width: 40rem;
+    background-color: var(--snackbar_black);
+    color: var(--white);
+    height: 5rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align:center;
+    gap: 1rem
+}
+
+.snackbar--text{
+    text-align: center;   
+}
+.exit{
+   color: var(--snackbar_violet);
+    display: inline;
+    height: fit-content; font-size: 2rem;
+}
+
+.snackBar--stacked{
+    width:fit-content;
+    padding: 2rem;
+    background-color: var(--snackbar_black);
+    color: var(--white);
+    height: 8.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem
+}
+
+.exit--stacked{
+    color: var(--snackbar_violet);
+     display: inline-flex;
+     height: fit-content; 
+     font-size: 2rem;
+    gap: 1rem;
+     justify-content: flex-end;
+ }
+ 

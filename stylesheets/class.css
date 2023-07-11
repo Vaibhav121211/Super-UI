@@ -1,0 +1,31 @@
+.grid{
+    display: grid;
+}
+.grid--center{
+    display: grid;
+    place-items: center;
+}
+.flex--cemter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.textAlign--center{
+    text-align: center;
+}
+
+
+.flex--dir--column{
+    flex-direction: column;
+}
+
+.scaleAndShadow{
+    transform: scale(1.05);
+    box-shadow: -1px 0px 27px -9px rgba(0,0,0,0.5);
+}
+.red{
+    color:red;
+}
+.pointer{
+    cursor: pointer;
+}
